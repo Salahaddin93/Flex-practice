@@ -1,0 +1,122 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: aqua;
+  margin: 1rem;
+}
+header .logo img {
+  width: 200px;
+}
+header .menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header .menu ul li {
+  margin: 5px;
+}
+header .menu a {
+  text-decoration: none;
+  background-color: darkblue;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+}
+header .menu a:hover {
+  background-color: lightgray;
+  color: blue;
+}
+
+.main-side {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-us .about-us-img img {
+  width: 300px;
+}
+main {
+  background-color: aqua;
+  padding: 10px;
+  flex: 5;
+  margin: 1px;
+}
+section.about-us {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  margin: 1px;
+  text-align: center;
+  flex: 3;
+}
+.box img {
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  margin: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 200px;
+}
+footer .iletisim {
+  text-align: center;
+}
+footer .iletisim ul li {
+  list-style-type: none;
+  margin: 10px;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+}
+footer .iletisim ul li a {
+  text-decoration: none;
+}
+
+div nav.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div nav.menu li {
+  list-style-type: none;
+  margin: 10px;
+  background-color: rgb(17, 127, 163);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+}
+div nav.menu ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+div nav.menu li:hover {
+  background-color: darkblue;
+}
